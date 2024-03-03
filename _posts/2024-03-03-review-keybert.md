@@ -1,10 +1,7 @@
 ---
 title: Review_KeyBERT
 mathjax: true
-article_header:
-  type: overlay
-  image:
-    src: /screenshot.jpg
+
 ---
 
 # KeyBERT
@@ -23,8 +20,7 @@ article_header:
     2. 지도 학습 방법이므로 labeled dataset이 필요한데, 이 데이터셋을 만드는 작업이 매우 비용이 많이 드는 작업이므로, 빠르게, 스스로 학습 데이터를 생성하는 알고리즘 제안
 2. 제안 방법
     1. 전체 과정
-        
-        ![Untitled](KeyBERT%20649acf0bcade4c73a848c8d1e7472909/Untitled.png)
+        <img class="image image--xl" src="./2024-0303-review_image/Untitled.png"/>
         
         - (분야에 상관없이)학습을 위한 데이터 수집
         - 특수 문자, 기호 등 데이터 정제
@@ -45,8 +41,7 @@ article_header:
     1. 비교 방법: RAKE [1], TextRank [2] 등
     2. 데이터셋: INSPEC dataset [3], DUC dataset [4]
     3. 짧은 문장에서 다른 방법과의 비교
-        
-        ![Untitled](KeyBERT%20649acf0bcade4c73a848c8d1e7472909/Untitled%201.png)
+        <img class="image image--xl" src="./2024-0303-review_image/Untitled 1.png"/>
         
     
 4. HuggingFace model
@@ -83,6 +78,7 @@ article_header:
 ### References
 
 [1] [https://onlinelibrary.wiley.com/doi/10.1002/9780470689646.ch1](https://onlinelibrary.wiley.com/doi/10.1002/9780470689646.ch1)
+
 [2] [https://aclanthology.org/W04-3252.pdf](https://aclanthology.org/W04-3252.pdf)
 
 [3] [https://aclanthology.org/N18-2100/](https://aclanthology.org/N18-2100/)
