@@ -1,7 +1,7 @@
 ---
 title: Review_KeyBERT
 mathjax: true
-
+tags: Keyword extraction
 ---
 
 # KeyBERT
