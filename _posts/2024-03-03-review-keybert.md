@@ -1,8 +1,8 @@
 ---
 title: Review_KeyBERT
-tags: TeXt
+mathjax: true
 article_header:
-  type: cover
+  type: overlay
   image:
     src: /screenshot.jpg
 ---
